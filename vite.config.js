@@ -1,7 +1,9 @@
+import { defineConfig } from 'vite';  // ✅ Ensure this is correctly imported
+import react from '@vitejs/plugin-react';
+
 export default defineConfig({
-  root: 'client', // Set Vite root to 'client' folder
   plugins: [react()],
   build: {
-    outDir: 'dist', // Output folder
-  }
+    outDir: 'dist', // Output directory for build
+  },
 });
