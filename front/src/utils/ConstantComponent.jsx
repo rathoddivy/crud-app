@@ -1,4 +1,4 @@
-export const baseurl = 'https://crud-app-3-y6bu.onrender.com';
+export const baseurl = 'https://crud-appbackend.onrender.com/api';
 
 
 import React from 'react'
